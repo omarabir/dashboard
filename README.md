@@ -1,16 +1,55 @@
-# React + Vite
+# Dashboard Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[Live Demo](https://dashboard-project10.netlify.app/)
 
-Currently, two official plugins are available:
+A modern, responsive dashboard application built with React, Vite, and Tailwind CSS. This project features a Dashboard Overview, Call Logs, Appointments management, and Settings with a glassmorphism UI design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- **Dashboard Overview**: Key metrics, charts, and activity feeds.
+- **Call Logs**: Detailed call history with transcripts and audio playback controls.
+- **Appointments**: Appointment booking status and details.
+- **Settings**: Profile management with edit capabilities.
+- **Responsive Design**: Mobile-friendly sidebar and layouts.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Prerequisites
 
-## Expanding the ESLint configuration
+Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+1.  **Clone the repository** (if applicable) or navigate to the project directory.
+
+2.  **Install dependencies**:
+
+    ```bash
+    npm install
+    ```
+
+3.  **Run the development server**:
+
+    ```bash
+    npm run dev
+    ```
+
+4.  **Open in Browser**:
+    Open your browser and navigate to the URL shown in the terminal (usually `http://localhost:5173`).
+
+## Building for Production
+
+To create a production-ready build:
+
+```bash
+npm run build
+```
+
+The built files will be in the `dist` directory.
+
+## Tech Stack
+
+- React
+- Vite
+- Tailwind CSS
+- DaisyUI
+- Lucide React (Icons)
+- Recharts (Charts)

@@ -74,7 +74,7 @@ const Appointments = () => {
 
   return (
     <div className="space-y-6">
-      {/* Stats Cards */}
+
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="bg-[#111c44] p-6 rounded-xl border border-gray-800">
           <div className="flex items-start gap-3 mb-2">
@@ -108,7 +108,7 @@ const Appointments = () => {
         </div>
       </div>
 
-      {/* Booking Link */}
+  
       <div className="space-y-2">
         <h3 className="text-sm font-medium text-gray-300">Booking Link</h3>
         <div className="flex flex-col sm:flex-row gap-4">
@@ -122,7 +122,7 @@ const Appointments = () => {
         </div>
       </div>
 
-      {/* Table */}
+   
       <div className="bg-[#111c44] border border-gray-800 rounded-xl overflow-hidden">
         <div className="overflow-x-auto">
           <table className="w-full text-left border-collapse">
@@ -180,7 +180,7 @@ const Appointments = () => {
         </div>
       </div>
 
-      {/* Pagination */}
+      
       <div className="flex items-center justify-center gap-2 text-sm text-blue-400 py-4">
         <button className="flex items-center gap-1 hover:text-blue-300 disabled:opacity-50">
           <ChevronLeft className="w-4 h-4" />
@@ -214,7 +214,7 @@ const Appointments = () => {
   );
 };
 
-// Simple Calendar icon component since it was missing in the import
+
 const CalendarIcon = ({ className }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"

@@ -3,13 +3,9 @@ import {
   Search,
   Phone,
   Clock,
-  Calendar,
-  AlertCircle,
   Play,
   FileText,
   CheckCircle,
-  XCircle,
-  ArrowRight,
 } from "lucide-react";
 
 const CallLogs = () => {
@@ -121,7 +117,7 @@ const CallLogs = () => {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
-        {/* Call List */}
+       
         <div className="lg:col-span-5 space-y-4">
           <h3 className="text-lg font-semibold text-gray-300 mb-2">
             Call List
@@ -172,7 +168,7 @@ const CallLogs = () => {
           </div>
         </div>
 
-        {/* Call Details */}
+        
         <div className="lg:col-span-7">
           <h3 className="text-lg font-semibold text-gray-300 mb-4">
             Call Details
